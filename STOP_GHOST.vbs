@@ -1,7 +1,7 @@
 ' Ghost Tab Cycler - Force Stop
 ' ================================
 ' Double-click this to force-kill the ghost tab app
-' if the Ctrl+Alt+Q hotkey isn't working for some reason.
+' if the End hotkey isn't working for some reason.
 
 Dim WshShell
 Set WshShell = CreateObject("WScript.Shell")

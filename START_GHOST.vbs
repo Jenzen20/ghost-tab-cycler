@@ -5,8 +5,8 @@
 ' Double-click this file to start the hidden app.
 '
 ' Hotkeys:
-'   Ctrl+Alt+S  =  Toggle cycling ON/OFF
-'   Ctrl+Alt+Q  =  Quit the app
+'   Ctrl+Pause (or Pause/Break) = Toggle cycling ON/OFF
+'   End = Quit the app
 
 Dim WshShell, scriptDir, pythonwPath, scriptPath
 
@@ -25,10 +25,8 @@ scriptPath = scriptDir & "\ghost_tab.py"
 If Not CreateObject("Scripting.FileSystemObject").FileExists(pythonwPath) Then
     MsgBox "Virtual environment not found!" & vbCrLf & vbCrLf & _
            "Please run setup first:" & vbCrLf & _
-           "  1. Open terminal in this folder" & vbCrLf & _
-           "  2. Run: py -m venv venv" & vbCrLf & _
-           "  3. Run: venv\Scripts\pip install -r requirements.txt" & vbCrLf & _
-           "  4. Double-click this file again", _
+           "  1. Double-click setup.bat (or follow instructions in README.md)" & vbCrLf & _
+           "  2. Double-click START_GHOST.vbs again", _
            vbExclamation, "Ghost Tab Cycler"
     WScript.Quit
 End If

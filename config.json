@@ -1,0 +1,11 @@
+{
+    "start_active": true,
+    "interval_seconds": 0,
+    "scroll_down_amount": 6,
+    "scroll_up_amount": 4,
+    "scroll_delay": 0.8,
+    "pause_before_scroll_up": 4.0,
+    "pause_after_scroll_up": 5.0,
+    "hotkey_toggle": "ctrl+pause",
+    "hotkey_quit": "end"
+}

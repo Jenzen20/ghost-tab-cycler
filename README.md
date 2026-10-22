@@ -163,9 +163,6 @@ You may have installed Python without checking the **"Add python.exe to PATH"** 
 You haven't run the first-time setup yet.  
 **Fix:** Double-click **`setup.bat`** and let it finish, then double-click `START_GHOST.vbs` again.
 
-### 3. How do I know if the app is currently running?
-Open **Task Manager** (`Ctrl + Shift + Esc`) and look under **Background processes** for `pythonw.exe`.
-
 ### 4. How do I stop the app if my hotkeys don't work?
 Double-click **`STOP_GHOST.vbs`** in the project folder. It will instantly terminate any running ghost process.
 
